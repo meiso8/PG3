@@ -3,6 +3,6 @@
 int main() {
 
 
-	printf("テストてすと");
+	printf("テスト");
 	return 0;
 }
