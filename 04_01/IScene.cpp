@@ -1,5 +1,5 @@
-#include"IScene.h"
-#include<stdio.h>
+#include "IScene.h"
+#include <stdio.h>
 int IScene::sceneNo_ = TITLE;
 
 IScene::~IScene() {}

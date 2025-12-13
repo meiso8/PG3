@@ -1,5 +1,5 @@
 #include "StageScene.h"
-#include<stdio.h>
+#include <stdio.h>
 StageScene::StageScene()
 {
     printf("StageSceneの生成\n");

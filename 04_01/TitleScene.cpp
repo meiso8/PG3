@@ -1,5 +1,5 @@
 #include "TitleScene.h"
-#include<stdio.h>
+#include <stdio.h>
 TitleScene::TitleScene()
 {
     printf("TitleSceneの生成\n");
