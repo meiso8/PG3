@@ -1,5 +1,4 @@
 #include <Novice.h>
-#include<stdio.h>
 #include<memory>
 #include"GameManager.h"
 

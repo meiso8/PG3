@@ -11,7 +11,8 @@ public:
     void Update();
     /// @briefキーを押した瞬間
     bool IsTriggerKey(const int& key);
-    static GetInstance() {
+
+    static InputManager* GetInstance() {
         if (instance_ == nullptr) {
             instance_ = new InputManager();
         }
