@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<iostream>
-#include<stdint.h>
+#include <iostream>
+#include <stdint.h>
 #include <string>
 
 //最低賃金

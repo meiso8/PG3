@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<iostream>
 #include<time.h>
-#include<functional>
+#include <functional>
 
 int main() {
 

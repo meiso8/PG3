@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include"Enemy.h"
-#include<memory>
+#include <stdio.h>
+#include "Enemy.h"
+#include <memory>
 
 using namespace std;
 int main() {

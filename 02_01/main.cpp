@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 
 //抽象化　一括対応

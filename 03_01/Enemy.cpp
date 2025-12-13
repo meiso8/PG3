@@ -1,5 +1,6 @@
 #include "Enemy.h"
-#include<stdio.h>
+#include <stdio.h>
+
 //テーブルにポインタを入れるために別途定義が必要　static
 void(Enemy::* Enemy::spFuncTable[])() {
     &Enemy::Approach,
