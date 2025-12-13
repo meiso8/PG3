@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<list>
-#include<iostream>
+#include <list>
+#include <iostream>
 
 using namespace std;
 
@@ -10,7 +9,6 @@ void Print(list<const char*>& world) {
     for (auto itr = world.begin(); itr != world.end(); ++itr) {
         std::cout << *itr << "\n";
     }
-
 }
 
 /// @brief 文字列を挿入する
@@ -72,7 +70,7 @@ int main() {
     Print(stations);
 
     //文字を挿入する
-    Insert(stations, "Tamachi", "Takanawa Geteway");
+    Insert(stations, "Tamachi", "Takanawa Gateway");
 
     //文字を出力する
     std::cout << "\n2020年" << "\n";
