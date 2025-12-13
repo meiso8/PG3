@@ -1,6 +1,6 @@
 #include "InputManager.h"
-#include<iostream>
-#include"Novice.h"
+#include <iostream>
+#include "Novice.h"
 
 InputManager* InputManager::instance_ = nullptr;
 

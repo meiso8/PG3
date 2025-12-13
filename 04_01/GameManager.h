@@ -1,12 +1,10 @@
 #pragma once
 
 
-#include<memory>
-#include<array>
-#include"IScene.h"
-#include"StageScene.h"
-#include"TitleScene.h"
-#include"ClearScene.h"
+#include <memory>
+#include <array>
+#include "IScene.h"
+
 class GameManager
 {
 private:

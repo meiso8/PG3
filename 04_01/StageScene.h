@@ -1,6 +1,6 @@
 #pragma once
 
-#include"IScene.h"
+#include "IScene.h"
 class StageScene :public IScene
 {
 public:

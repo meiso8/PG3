@@ -1,13 +1,15 @@
 #include "TitleScene.h"
-#include <stdio.h>
+#include "Novice.h"
+
+//#include<stdio.h>
 TitleScene::TitleScene()
 {
-    printf("TitleSceneの生成\n");
+
 }
 
 void TitleScene::Init()
 {
-    printf("シーン切り替えをしてTitleSceneになりました\n");
+
 }
 
 void TitleScene::Update()
@@ -17,5 +19,7 @@ void TitleScene::Update()
 
 void TitleScene::Draw()
 {
-    printf("TitleScene\n");
+    //文字を表示
+    Novice::ScreenPrintf(10, 30, "TitleScene");
+ 
 }

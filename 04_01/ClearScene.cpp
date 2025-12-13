@@ -1,13 +1,12 @@
 #include "ClearScene.h"
+#include "Novice.h"
 
-#include<stdio.h>
+//#include<stdio.h>
 ClearScene::ClearScene()
 {
-    printf("ClearSceneの生成\n");
 }
 void ClearScene::Init()
 {
-    printf("シーン切り替えをしてClearSceneになりました\n");
 }
 
 void ClearScene::Update()
@@ -17,5 +16,5 @@ void ClearScene::Update()
 
 void ClearScene::Draw()
 {
-    printf("ClearScene\n");
+    Novice::ScreenPrintf(512, 30, "ClearScene");
 }

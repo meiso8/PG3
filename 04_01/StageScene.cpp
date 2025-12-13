@@ -1,13 +1,11 @@
 #include "StageScene.h"
-#include <stdio.h>
+#include "Novice.h"
+
 StageScene::StageScene()
 {
-    printf("StageSceneの生成\n");
+
 }
 void StageScene::Init() {
-
-    printf("シーン切り替えをしてStageSceneになりました\n");
-
 }
 
 
@@ -18,6 +16,5 @@ void StageScene::Update()
 
 void StageScene::Draw()
 {
-
-    printf("StageScene\n");
+    Novice::ScreenPrintf(256, 30, "StageScene");
 }
