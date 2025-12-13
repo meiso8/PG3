@@ -5,12 +5,12 @@
 using namespace std;
 int main() {
 
-	unique_ptr<Enemy> enemy = make_unique<Enemy>();
+    unique_ptr<Enemy> enemy = make_unique<Enemy>();
 
-	while (true) {
-		enemy->Update();
-	}
-	
+    while (true) {
+        enemy->Update();
+    }
 
-	return 0;
+
+    return 0;
 }

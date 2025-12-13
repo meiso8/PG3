@@ -3,8 +3,8 @@
 //テーブルにポインタを入れるために別途定義が必要　static
 void(Enemy::* Enemy::spFuncTable[])() {
     &Enemy::Approach,
-    &Enemy::Shot,
-    &Enemy::Exit,
+        & Enemy::Shot,
+        & Enemy::Exit,
 };
 
 void Enemy::Update()

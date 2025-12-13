@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/// @brief •¶š—ñ‚ğ•\¦‚·‚é
+/// @brief æ–‡å­—åˆ—ã‚’è¡¨ç¤ºã™ã‚‹
 /// @param world 
 void Print(list<const char*>& world) {
     for (auto itr = world.begin(); itr != world.end(); ++itr) {
@@ -13,10 +13,10 @@ void Print(list<const char*>& world) {
 
 }
 
-/// @brief •¶š—ñ‚ğ‘}“ü‚·‚é
+/// @brief æ–‡å­—åˆ—ã‚’æŒ¿å…¥ã™ã‚‹
 /// @param world 
-/// @param TagWord ‘}“ü‚·‚éêŠ‚Ì•¶š—ñ
-/// @param InputWord ‘}“ü‚·‚é•¶š—ñ
+/// @param TagWord æŒ¿å…¥ã™ã‚‹å ´æ‰€ã®æ–‡å­—åˆ—
+/// @param InputWord æŒ¿å…¥ã™ã‚‹æ–‡å­—åˆ—
 void Insert(list<const char*>& world, const char* TagWord, const char* InputWord) {
     for (std::list<const char*>::iterator itr = world.begin(); itr != world.end(); ++itr) {
         if (*itr == TagWord) {
@@ -29,7 +29,7 @@ void Insert(list<const char*>& world, const char* TagWord, const char* InputWord
 
 int main() {
 
-    //‰w–¼ƒŠƒXƒg
+    //é§…åãƒªã‚¹ãƒˆ
     list<const char*> stations{
         "Tokyo",
         "Kanda",
@@ -60,22 +60,22 @@ int main() {
         "Shimbashi",
         "Yurakucho" };
 
-    //•¶š‚ğo—Í‚·‚é
-    std::cout << "1970”N" << "\n";
+    //æ–‡å­—ã‚’å‡ºåŠ›ã™ã‚‹
+    std::cout << "1970å¹´" << "\n";
     Print(stations);
 
-    //•¶š‚ğ‘}“ü‚·‚é
+    //æ–‡å­—ã‚’æŒ¿å…¥ã™ã‚‹
     Insert(stations, "Tabata", "Nishi-Nippori");
 
-    //•¶š‚ğo—Í‚·‚é
-    std::cout << "\n2019”N" << "\n";
+    //æ–‡å­—ã‚’å‡ºåŠ›ã™ã‚‹
+    std::cout << "\n2019å¹´" << "\n";
     Print(stations);
 
-    //•¶š‚ğ‘}“ü‚·‚é
+    //æ–‡å­—ã‚’æŒ¿å…¥ã™ã‚‹
     Insert(stations, "Tamachi", "Takanawa Geteway");
 
-    //•¶š‚ğo—Í‚·‚é
-    std::cout << "\n2020”N" << "\n";
+    //æ–‡å­—ã‚’å‡ºåŠ›ã™ã‚‹
+    std::cout << "\n2020å¹´" << "\n";
     Print(stations);
 
 
