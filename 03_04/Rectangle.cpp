@@ -9,3 +9,4 @@ void Rectangle::Draw()
 {
     printf("size %3.0f\n", size_);
 }
+
