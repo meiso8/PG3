@@ -131,7 +131,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MinMax.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MinMax.h" />

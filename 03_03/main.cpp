@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include"Spaghetti.h"
-#include<array>
+#include <stdio.h>
+#include "Spaghetti.h"
+#include <array>
 int main() {
 
     std::array<Spaghetti*, 3>spaghettis;

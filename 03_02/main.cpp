@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include"MinMax.h"
+#include <stdio.h>
+#include "MinMax.h"
 int main() {
 
     MinMax<int, int> iI(5, 10);

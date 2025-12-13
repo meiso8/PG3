@@ -1,6 +1,5 @@
-#include<stdio.h>
-#include<iostream>
-#include<time.h>
+#include <iostream>
+#include <time.h>
 #include <functional>
 
 int main() {

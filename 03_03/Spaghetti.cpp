@@ -1,5 +1,5 @@
 #include "Spaghetti.h"
-#include<stdio.h>
+#include <stdio.h>
 
 
 Spaghetti::~Spaghetti()

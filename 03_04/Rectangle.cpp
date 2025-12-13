@@ -1,5 +1,5 @@
 #include "Rectangle.h"
-#include<stdio.h>
+#include <stdio.h>
 void Rectangle::Size()
 {
     size_ = width_ * height_;

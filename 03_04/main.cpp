@@ -1,8 +1,8 @@
-#include<stdio.h>
-#include"Circle.h"
-#include"Rectangle.h"
-#include<memory>
-#include<vector>
+#include <stdio.h>
+#include "Circle.h"
+#include "Rectangle.h"
+#include <memory>
+#include <vector>
 int main() {
 
     std::vector<std::unique_ptr<IShape>> iShapes_;
