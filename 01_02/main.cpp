@@ -62,16 +62,16 @@ int main() {
 
     //要素の表示
     for (int i = 0; i < numbers.size(); ++i) {
-        std::cout << numbers[i] << "\n";
+        printf("%s\n", numbers[i].c_str());
     }
 
     //昇順に並び替え
     sort(numbers.begin(), numbers.end());
-    std::cout << "\nソート後" << "\n";
+    printf("\nソート後\n");
 
     //要素の表示
     for (int i = 0; i < numbers.size(); ++i) {
-        std::cout << numbers[i] << "\n";
+        printf("%s\n", numbers[i].c_str());
     }
 
 

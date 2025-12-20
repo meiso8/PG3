@@ -41,12 +41,9 @@ int main() {
         normalMoney = NormalMoney(time);
 
         //文字を出力する
-        cout << "time : ";
-        cout << time << endl;
-        cout << "RecursiveMoney : ";
-        cout << recursiveMoney << endl;
-        cout << "MoneyNormal : ";
-        cout << normalMoney << endl;
+        printf("time : %d\n", time);
+        printf("RecursiveMoney : %d\n", recursiveMoney);
+        printf("MoneyNormal : %d\n", normalMoney);
 
         if (normalMoney <= recursiveMoney) {
             //上回ったら抜ける
