@@ -32,7 +32,7 @@ int GameManager::Run()
 
         prevSceneNo_ = currentSceneNo_;
         currentSceneNo_ = sceneArr_[currentSceneNo_]->GetScene();
-    
+
         if (prevSceneNo_ != currentSceneNo_) {
             sceneArr_[currentSceneNo_]->Init();
         }
@@ -45,7 +45,7 @@ int GameManager::Run()
         Novice::EndFrame();
 
     }
- 
+
     // ライブラリの終了
     Novice::Finalize();
 
