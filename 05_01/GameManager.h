@@ -12,6 +12,8 @@ private:
     int currentSceneNo_;
     int prevSceneNo_;
 
+    // キー入力結果を受け取る箱
+    char keys[256] = { 0 };
 
 public:
     GameManager();
