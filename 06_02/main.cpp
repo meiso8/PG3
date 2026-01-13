@@ -106,6 +106,8 @@ int main() {
                 DrawMap(map);
                 mapDraw = true;
             }
+        } else {
+            printf("読み込み中\n");
         }
 
         if (mapDraw) {
