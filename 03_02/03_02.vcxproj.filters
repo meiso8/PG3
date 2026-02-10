@@ -21,7 +21,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MinMax.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ヘッダー ファイル\ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
