@@ -17,7 +17,7 @@ uint32_t RecursiveMoney(uint32_t time) {
     if (time <= 1) {
         return time * A0;
     } else {
-        return { RecursiveMoney(time - 1) * 3 - 50 };
+        return { RecursiveMoney(time - 1) * 2 - 50 };
     }
 
 }
@@ -26,6 +26,7 @@ uint32_t RecursiveMoney(uint32_t time) {
 /// @param time 時間
 /// @return 一般賃金体系の合計値
 uint32_t NormalMoney(uint32_t time) {
+
     return time * MONEY;
 }
 
@@ -37,7 +38,7 @@ int main() {
     for (uint32_t time = 1; time < 100; ++time) {
 
         //お賃金を計算する
-        recursiveMoney = RecursiveMoney(time);
+        recursiveMoney += RecursiveMoney(time);
         normalMoney = NormalMoney(time);
 
         //文字を出力する
